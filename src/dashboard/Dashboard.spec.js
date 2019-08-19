@@ -13,23 +13,6 @@ describe('<Dashboard/>', () => {
     })
 })
 
-// jest.mock('state.locked', () => false)
-// jest.mock('state.closed', () => false)
-
-describe('toggleLocked function', () => {
-    // const spy = jest.spyOn(Dashboard, 'Dashboard.toggleLocked');
-    // console.log(spy)
-    // it('sets state.locked to false if true', () => {
-        
-    // })
-    // it('sets state.locked to true if false', () => {
-
-    // })
-    // it('Is disabled/does nothing if gate is open', () => {
-
-    // })
-})
-
 describe('buttons', () => {
     it('should show "unlock gate" if locked', () => {
         let lockedMock = true;
@@ -71,18 +54,5 @@ describe('button events', () => {
         fireEvent.click(lockGateBtn);
         expect(queryByText(/locked/i)).toBeTruthy();
     })
-    // The following test still has errors:
-    // it('Display should show "unlocked" after clicking "unlock gate"', () => {
-        // let lockedMock = true;
-        // let closedMock = true;
-        // render(<Display locked={lockedMock} closed={closedMock}/>)
-        // const { getByText, queryByText } = render(<Controls locked={lockedMock} closed={closedMock}/>);
-        // const unlockGateBtn = getByText(/unlock\sgate/i);
-         
-        // buttonClick(unlockGateBtn)
-        // .then(expect(queryByText(/unlocked/i)).toBeTruthy())
-        
-        // expect(queryByText(/unlocked/i)).toBeTruthy();
-    // })
 })
 
