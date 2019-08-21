@@ -1,6 +1,6 @@
 # Testing III
 
-In this project, you will demonstrate proficiency by writing unit tests for an existing React application. Your tests should verify the behavior listed in the _Minimum Viable Product_ section.
+In this project, you will demonstrate proficiency by writing tests for an existing React application. Your tests should verify the behavior listed in the _Minimum Viable Product_ section.
 
 Some of the topics covered were:
 
@@ -20,7 +20,7 @@ Please push your code often and use descriptive commit messages, this helps you 
 
 ## Project Description
 
-In this project, you will **write unit tests** for an existing React application that controls a gate and shows two LEDs that portrait the status of the gate.
+In this project, you will **write tests** for an existing React application that controls a gate and shows two LEDs that portrait the status of the gate.
 
 The requirements are listed under the _Minimum Viable Product_ section below.
 
@@ -28,12 +28,12 @@ The requirements are listed under the _Minimum Viable Product_ section below.
 
 Follow these steps to setup your git _fork_ and _branch_.
 
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
-- [ ] Push often to your branch: `git push origin <firstName-lastName>`.
+- [x] Fork this repository.
+- [x] Use GitHub's website to add your project manager as collaborator on **your fork**.
+- [x] **Clone your forked version** of the repository (**Not Lambda's**!).
+- [x] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [x] Commit changes to your `<firstName-lastName>` branch.
+- [x] Push often to your branch: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project.
 
